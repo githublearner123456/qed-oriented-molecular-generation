@@ -168,11 +168,13 @@
 
 `main/train.py`训练日志：
 
-有效分子数: 249455
-构造高相似训练对...
-训练对数量: 15560
-Pair quality | AvgSim 0.397 | AvgDQED +0.117 | MinSim 0.350 | MinDQED +0.060
-词表大小: 59
+### `main/train.py` 训练日志
+
+**训练数据统计**
+- 有效分子数: `249455`
+- 训练对数量: `15560`
+- Pair quality: `AvgSim 0.397` | `AvgDQED +0.117` | `MinSim 0.350` | `MinDQED +0.060`
+- 词表大小: `59`
 <div style="overflow-x: auto;">
   <table style="border-collapse: collapse; width: 100%; font-size: 13px;">
     <thead>
