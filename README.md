@@ -280,11 +280,7 @@
 - **最佳 epoch**: `68`
 - **最佳 Score**: `4.9389569823507244`
 - **最佳验证损失**: `1.1714241946345905`
-
-### 终端输出摘要
-
-```text
-Test Results: Validity 1.000, SimSrc 0.331, SimTgt 0.261, dQED +0.068, PosDQED 0.825, Opt30 0.666, Opt40 0.274
+- **最佳验证损失**:Test Results: Validity 1.000, SimSrc 0.331, SimTgt 0.261, dQED +0.068, PosDQED 0.825, Opt30 0.666, Opt40 0.274
 Training finished.
 
 
