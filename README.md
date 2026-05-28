@@ -119,9 +119,9 @@
   - 输入 `--input_selfies`，可选 `--checkpoint`。  
   - 调用 `qed_project.predict_one(cfg)`，输出优化后的 SELFIES/SMILES、相似度、QED、dQED。
 ## 6.`results`收录的结果
--测试集与验证集评估
-  -`test set's evaluation.csv`：测试集每条样本的预测与指标明细，便于逐条排查。
-  -`validation set's evaluation.csv`：验证集每条样本的预测与指标明细，用于调参和误差分析。
+- 测试集与验证集评估
+  - `test set's evaluation.csv`：测试集每条样本的预测与指标明细，便于逐条排查。
+  - `validation set's evaluation.csv`：验证集每条样本的预测与指标明细，用于调参和误差分析。
 
   评估汇总（整体指标）
 `test set's metrics.json`：测试集总体指标汇总（如 validity、dQED、SimSrc、positive_dqed_rate 等），用于最终效果报告。
