@@ -119,24 +119,24 @@
   - 输入 `--input_selfies`，可选 `--checkpoint`。  
   - 调用 `qed_project.predict_one(cfg)`，输出优化后的 SELFIES/SMILES、相似度、QED、dQED。
 ## 6.`results`收录的结果
-测试集与验证集评估
+  测试集与验证集评估
 `test set's evaluation.csv`：测试集每条样本的预测与指标明细，便于逐条排查。
 `validation set's evaluation.csv`：验证集每条样本的预测与指标明细，用于调参和误差分析。
 
-评估汇总（整体指标）
+  评估汇总（整体指标）
 `test set's metrics.json`：测试集总体指标汇总（如 validity、dQED、SimSrc、positive_dqed_rate 等），用于最终效果报告。
 `validation set's metrics.json`：验证集总体指标汇总，用于模型选择和训练过程监控。
 
-可视化图表
+  可视化图表
 `training_curves.png`：训练过程曲线（通常是 loss/metric 随 epoch 变化），用于判断收敛和过拟合。
 `test_dqed_hist.png`：测试集 dQED 分布直方图，观察优化增益分布。
 `test_simsrc_hist.png`：测试集 SimSrc 分布直方图，观察与原分子相似度分布。
 `test_simsrc_dqed_scatter.png`：SimSrc 与 dQED 的散点关系图，用于分析“相似性-优化幅度”权衡。
 
-训练日志
+  训练日志
 `training log(detailed).csv`：详细训练日志（通常含每轮/每步 loss 与指标），用于复现实验和诊断训练异常。
 
-模型权重
+  模型权重
 `best model.pt`：验证表现最优的模型参数，通常用于最终推理/部署。
 `last epoch's model.pt`：最后一轮模型参数，便于继续训练或对比“最佳 vs 最后”。
 
