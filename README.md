@@ -285,18 +285,5 @@
 Test Results: Validity 1.000, SimSrc 0.331, SimTgt 0.261, dQED +0.068, PosDQED 0.825, Opt30 0.666, Opt40 0.274
 Training finished.
 
-{
-  "validity": 1.0,
-  "dQED": 0.0728414133042814,
-  "SimSrc": 0.33056054677645613,
-  "SimTgt": 0.26615034674035,
-  "positive_dqed_rate": 0.827120822622108,
-  "sim30_rate": 0.6812339331619537,
-  "sim40_rate": 0.2699228791773779,
-  "opt30_rate": 0.6606683804627249,
-  "opt40_rate": 0.2609254498714653,
-  "valid_count": 1556,
-  "invalid_count": 0,
-  "loss": 1.1714241946345905
-}
+
 
