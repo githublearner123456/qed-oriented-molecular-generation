@@ -118,7 +118,7 @@
   - 单分子推理入口。  
   - 输入 `--input_selfies`，可选 `--checkpoint`。  
   - 调用 `qed_project.predict_one(cfg)`，输出优化后的 SELFIES/SMILES、相似度、QED、dQED。
-## 5.`results`收录的结果：
+## 6.`results`收录的结果：
 测试集与验证集评估
 `test set's evaluation.csv`：测试集每条样本的预测与指标明细，便于逐条排查。
 `validation set's evaluation.csv`：验证集每条样本的预测与指标明细，用于调参和误差分析。
