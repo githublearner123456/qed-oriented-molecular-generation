@@ -275,14 +275,16 @@
     </tbody>
   </table>
 </div>
+**训练结束信息**
+- 最佳 epoch: `68`
+- 最佳 Score: `4.9389569823507244`
+- 最佳验证损失: `1.1714241946345905`
+
+**终端输出摘要**
+```text
 Test Results: Validity 1.000, SimSrc 0.331, SimTgt 0.261, dQED +0.068, PosDQED 0.825, Opt30 0.666, Opt40 0.274
 Training finished.
-"best_epoch": 68,
-  "best_score": 4.9389569823507244,
-  "best_valid_loss": 1.1714241946345905,
 
-
-验证集评估：
 {
   "validity": 1.0,
   "dQED": 0.0728414133042814,
@@ -298,19 +300,3 @@ Training finished.
   "loss": 1.1714241946345905
 }
 
-
-测试集评估：
-{
-  "validity": 1.0,
-  "dQED": 0.06790234655422303,
-  "SimSrc": 0.3314666424439256,
-  "SimTgt": 0.2609290724551484,
-  "positive_dqed_rate": 0.8251928020565553,
-  "sim30_rate": 0.6850899742930592,
-  "sim40_rate": 0.2808483290488432,
-  "opt30_rate": 0.6658097686375322,
-  "opt40_rate": 0.2744215938303342,
-  "valid_count": 1556,
-  "invalid_count": 0,
-  "loss": 1.1733037249740168
-}
