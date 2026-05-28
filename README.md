@@ -144,11 +144,6 @@
 ## 7. main 的终端日志
 
 ### `main/predict_one.py` 生成案例
-
-**指令：**
-```bash
-& C:/Users/16544/anaconda3/envs/my-pytorch/python.exe predict_one.py --input_selfies "[C][C][=N][N][Branch1][Branch2][C][=Branch1][C][=O][N][Ring1][=Branch1][C][=C][C][=C][C][=C][Ring1][=Branch1][F]" --out_dir output_sim_pairs
-`main/predict_one.py`生成案例：
 指令：
 & C:/Users/16544/anaconda3/envs/my-pytorch/python.exe predict_one.py --input_selfies "[C][C][=N][N][Branch1][Branch2][C][=Branch1][C][=O][N][Ring1][=Branch1][C][=C][C][=C][C][=C][Ring1][=Branch1][F]" --out_dir output_sim_pairs
 
