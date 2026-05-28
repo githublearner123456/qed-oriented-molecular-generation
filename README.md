@@ -152,6 +152,7 @@ results：
 QED: 0.9262729281846569 dQED: 0.1919763972132874  srcQED:0.73430
 
 `main/train.py`训练日志：
+
 有效分子数: 249455
 构造高相似训练对...
 训练对数量: 15560
@@ -263,6 +264,7 @@ Training finished.
   "best_score": 4.9389569823507244,
   "best_valid_loss": 1.1714241946345905,
 
+
 验证集评估：
 {
   "validity": 1.0,
@@ -278,6 +280,7 @@ Training finished.
   "invalid_count": 0,
   "loss": 1.1714241946345905
 }
+
 
 测试集评估：
 {
