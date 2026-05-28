@@ -147,12 +147,24 @@
 指令：
 & C:/Users/16544/anaconda3/envs/my-pytorch/python.exe predict_one.py --input_selfies "[C][C][=N][N][Branch1][Branch2][C][=Branch1][C][=O][N][Ring1][=Branch1][C][=C][C][=C][C][=C][Ring1][=Branch1][F]" --out_dir output_sim_pairs
 
-results：
-输入 SELFIES: [C][C][=N][N][Branch1][Branch2][C][=Branch1][C][=O][N][Ring1][=Branch1][C][=C][C][=C][C][=C][Ring1][=Branch1][F]
-优化后 SELFIES: [C][C][=N][N][Branch1][C][C][C][Branch1][C][C][=C][Ring1][#Branch1][C@@H1][Branch1][C][C][NH2+1][C][=Branch1][C][=O][C][=C][C][=C][C][=C][Ring1][=Branch1][F]
-优化后 SMILES: Cc1nn(C)c(C)c1[C@@H](C)[NH2+]C(=O)c1ccccc1F
-相似度: 0.2777777777777778
-QED: 0.9262729281846569 dQED: 0.1919763972132874  srcQED:0.73430
+**results：**
+
+- **输入 SELFIES**  
+  `[C][C][=N][N][Branch1][Branch2][C][=Branch1][C][=O][N][Ring1][=Branch1][C][=C][C][=C][C][=C][Ring1][=Branch1][F]`
+
+- **优化后 SELFIES**  
+  `[C][C][=N][N][Branch1][C][C][C][Branch1][C][C][=C][Ring1][#Branch1][C@@H1][Branch1][C][C][NH2+1][C][=Branch1][C][=O][C][=C][C][=C][C][=C][Ring1][=Branch1][F]`
+
+- **优化后 SMILES**  
+  `Cc1nn(C)c(C)c1[C@@H](C)[NH2+]C(=O)c1ccccc1F`
+
+- **相似度**  
+  `0.2777777777777778`
+
+- **QED / dQED / srcQED**  
+  - QED: `0.9262729281846569`  
+  - dQED: `0.1919763972132874`  
+  - srcQED: `0.73430`
 
 `main/train.py`训练日志：
 
