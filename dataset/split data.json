@@ -1,0 +1,6 @@
+{
+  "total_pairs": 15560,
+  "train_pairs": 12448,
+  "valid_pairs": 1556,
+  "test_pairs": 1556
+}

@@ -1,0 +1,8 @@
+{
+  "python_version": "3.9.25",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch_version": "2.6.0+cu124",
+  "cuda_available": true,
+  "rdkit_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+}
