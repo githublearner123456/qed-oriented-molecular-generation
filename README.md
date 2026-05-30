@@ -12,7 +12,7 @@
 
 ## 2. 数据集处理流程
 
-`qed_project/data.py`：
+`qed_pipeline/data.py`：
 
 - 读取输入文件  
 - 清洗分子：补全 SELFIES、token 化、RDKit 解析、计算 QED、提取 Morgan 指纹。  
@@ -88,7 +88,7 @@
 
 `Loss = CE + sim_loss_weight * MSE(sim_pred, pair_sim) + qed_loss_weight * MSE(qed_pred, tgt_qed)`
 
-## 4. `qed_project` 文件介绍
+## 4. `qed_pipeline` 文件介绍
 
 - `config.py`：训练/推理超参数配置。  
 - `data.py`：数据读取、pair 构造、Dataset/Collate。
